@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet"  type='text/css' href="estilo.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <title>Vectron Lab</title>
+
+    <script type="text/javascript">
+     $(document).ready(function(){ 
+     /* $("#menu-toggle").click(function() {
+        $("#sidebar-wrapper").toggle(140, "swing");            
+    
+      });*/
+
+     
+
+        $("#pagecontentwrapper").load('principal.html')
+      });
+
+      
+    
+    
+    </script>
+
+  </head>
+  <body>
+    <!-- Menu Lateral-->
+    <div class="d-flex" id="wrapper" >
+
+        <div href="#collapseExampleDF" id="sidebar-wrapper" >
+            <div class="list-group-item list-group-item-action " id="principal" > <h3 style = "color: #40667c;">Vectron Lab</h3></div>
+            <div class="list-group list-group-flush text-light mt-3">
+                <div href="#" class="row ml-4 p-2 ">
+                    <div class="imagem mr-2">
+
+                    </div>
+                Funcionario A</br>
+                Cargo
+                </div>
+
+              <a class="list-group-item list-group-item-action text-light mt-3 border border-left-0 border-right-0 border-light" data-toggle="collapse" href="#collapseExampleDF">Departamento Fiscal</a>
+              <div class="collapse" id="collapseExampleDF">
+                    <div class="card">
+                            <a href="#" class="list-group-item list-group-item-action bg-white border-bottom  border-light" id="municipal">Impostos Municipais</a>
+                            <a href="#" class="list-group-item list-group-item-action bg-white border-bottom  border-light">Impostos Estaduais</a>
+                            <a href="#" class="list-group-item list-group-item-action bg-white border-bottom  border-light">Impostos Federais</a>
+                    </div>
+                </div>
+
+              
+              <a class="list-group-item list-group-item-action text-light border border-left-0 border-right-0 border-light" data-toggle="collapse" href="#collapseExampleDC" role="button" aria-expanded="false"
+              aria-controls="collapseExampleDC">Departamento Contabil</a>
+              <div class="collapse" id="collapseExampleDC">
+                    <div class="card ">
+                            <a href="#" class="list-group-item list-group-item-action bg-white">Bancário</a>
+                            <a href="#" class="list-group-item list-group-item-action bg-white">Extrato</a>
+                    </div>
+                </div>
+              <a href="#" class="list-group-item list-group-item-action text-light border border-left-0 border-right-0 border-bottom-0 border-light" id="listar_empresas">Gerenciar Empresas</a>
+            </div>
+        </div>
+          <!-- /#Menu-lateral -->
+      
+          <!-- Page Content -->
+          <div class="col-12" id="pagecontentwrapper">
+      
+          </div>
+            
+          <!-- /#page-content-wrapper -->
+      
+    </div>
+        <!-- /#wrapper -->
+      
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

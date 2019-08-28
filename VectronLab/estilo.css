@@ -1,0 +1,42 @@
+body {
+    overflow-x: hidden; 
+   
+  }
+  
+  #sidebar-wrapper {
+    min-height: 100vh;
+    
+    background-color: black;
+    
+  }
+
+  .imagem{
+
+    border-style: solid;
+    background-color: white ;
+    height: 50px ;
+    width: 50px;
+}
+
+
+  
+
+
+  #sidebar-wrapper .list-group-item {
+    width: 15em;
+    
+    background-color: black;
+    
+  }
+
+  #sidebar-wrapper .list-group-flush{
+        
+    background-color: black;
+    
+  }
+  
+  
+  
+  @media (min-width: 768px) {
+    
+  }
